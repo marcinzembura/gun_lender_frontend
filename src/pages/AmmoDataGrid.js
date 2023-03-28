@@ -7,7 +7,7 @@ export default function AmmoDataGrid() {
 
 	useEffect(() => {
 		const fetchData = async () => {
-			const result = true //tutaj nowy call do backendu
+			const result = true
 			setHasAccess(result);
 		};
 		fetchData();
